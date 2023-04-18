@@ -40,6 +40,25 @@ int main()
     return 0;
 }
 
+/* with built in function
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[101],s2[101];
+    gets(s1);
+    gets(s2);
+
+    int value = strcmp(s1,s2);
+
+    if(value>0) printf("%s\n",s2);
+    else if(value<0) printf("%s\n",s1);
+    else printf("%s",s1);//else printf("%s",s1);
+
+    return 0;
+}
+*/
+
 /*
 
 // #include<stdio.h>
